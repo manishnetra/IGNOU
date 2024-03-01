@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    
+}
+body {
+    background-color: #b3b0b0;
+}
+header {
+    height: 120px;
+    width: 100%;
+    background-color: #0F5092;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #0f5092;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+}
+
+TABLE {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* background-color: pink; */
+    height: 100%;
+}
+
+.nav_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+    height: 10;
+    /* height: 7vh; */
+    
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+ul {
+    width: 60%;
+    height: 38px;
+    background-color: rgb(190, 223, 238);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 100%;
+}
+
+a:hover {
+    background-color: #0F5092;
+}
+
+/* form  */
+ 
+form {
+    height: 660px;
+    padding: 10px 10px 30px 10px;
+    margin: 0px 24px;
+    width: 100%;
+    background-color: #ffffff;
+}
+ 
+fieldset {
+    border: 0;
+    height: 612px;
+    width: 70%;
+    /* background-color: pink; */
+    margin-left: 10px;
+    
+}
+
+legend {
+    width: 100%;
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.field {
+    font-size: 0.75rem;
+    color: red;
+}
+
+input, #gender {
+    width: 47%;
+    height: 30px;
+    margin: 0px 10px;
+    background-color: #f1e9e956;
+}
+
+.required {
+    color: red;
+}
+.tip {
+    font-size: 0.70rem;
+    color: #006599;
+    /* background-color: aquamarine;
+    border: 1px solid aquamarine; */
+    padding: 2px;
+    height: 30px;
+    width: 25%;
+}
+
+label   {
+     font-size: 0.75rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
+    width: 100%;   
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.father {
+    border: none;
+    margin-right: 8px;
+}
+.five input {
+    width:42%;
+    margin-right: 6px ;
+}
+
+.two {
+    margin-right: 12px;
+}
+
+.three {
+    margin-right:18px;
+}
+
+.four {
+    margin-right: 10px;
+}
+
+.five {
+    margin-right: 140px;
+}
+.six {
+    margin-right: 100px;
+}
+.seven {
+    margin-right: 92px;
+}
+.eight {
+    margin-left: 57px;
+}
+
+.nine {
+    margin-left: 60px;
+}
+.ten {
+    margin-right : 160px;
+}
+.eleven {
+    margin-right: 250px;
+}
+
+.code {
+    background-color: yellow;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.submit button {
+    margin-right: 40px;
+    height: 30px ;
+    width: 15%;
+    background-color: #CE0049;
+    color: white;
+}
